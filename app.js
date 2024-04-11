@@ -42,7 +42,7 @@ app.use((req, res, next) => {
   // }
 
   app.use(helmet());
-  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Origin', 'https://piquante-j7q6.onrender.com');
 
   res.setHeader(
     'Access-Control-Allow-Headers',
